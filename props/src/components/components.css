@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
 }
 
 .navbar {
@@ -25,6 +27,9 @@
 .app-name {
     font-size: 1.5rem;
     color:  #FFFFFF ;
+}
+.app-name:hover{
+    color: orange;
 }
 
 .navbar-search {
@@ -78,10 +83,12 @@
     text-decoration: none;
     background-color: #FFA500;
     border-radius: 5px;
+    padding: 1px;
 }
 
 .body-options li:hover {
     background-color: #FFA500;
+    padding: 1px;
 }
 .footer {
     display: flex;
@@ -92,7 +99,7 @@
     align-items: center;
     width: 100%;
     margin-top: 20px;
-    height: 500px;
+    height: 50px;
 
 }
 
@@ -102,12 +109,20 @@
     margin-right: 70px;
 }
 .about-me h3{
+    display: flex;
+    justify-content: center;
     font-size: 30px;
+    margin-top: 12px;
 }
 .about-me h2{
+    display: flex;
+    justify-content: center;
     font-size: 50px;
+    margin-bottom: 25px;
 }
 .about-me h1{
+    display: flex;
+    justify-content: center;
     font-size: 80px;
     color: rgb(171, 42, 63);
 }
@@ -129,18 +144,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px; 
+    height: 500px; 
     background-color: white;
   }
   
   .container {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 40%;
     text-align: center;
-    height: 700px;
+    height: 400px;
   }
   .container h2 {
     font-size: 50px;
@@ -185,6 +200,45 @@
   }
   .center {
     margin: 10px 10px 10px 10px;
+  }
+
+
+  /* LOVE CALCULATOR */
+  .love-calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+  }
+  
+  .love-calc h1 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 350%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .result {
+    margin-top: 20px;
+    color: #ff1493;
+    font-size: 1.2em;
+    text-align: center;
   }
 
 
