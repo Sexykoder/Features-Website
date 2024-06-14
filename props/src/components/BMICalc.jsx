@@ -16,7 +16,7 @@ const BMICalc = () => {
       alert('Please Enter a valid Weight')
     }
     else {
-      let bmi= (weight/(height*height)*703)
+      let bmi = weight / ((height * 0.3048) ** 2)
       setBmi(bmi.toFixed(1))
 
       if(bmi<25) {
@@ -47,7 +47,7 @@ setMessage("You are underweight")
         <h2>BMI CALCULATOR</h2>
         <form onSubmit={calcBmi}>
           <div>
-            <label>Weight (lbs)</label>
+            <label>Weight (Kg)</label>
             <input
               type="text"
               placeholder="Enter Your Weight"
@@ -57,7 +57,7 @@ setMessage("You are underweight")
           </div>
 
           <div>
-            <label>Height (in)</label>
+            <label>Height (Foot)</label>
             <input
               type="text"
               placeholder="Enter Your Height"
