@@ -52,6 +52,7 @@ const WeatherApp = () => {
   };
 
   return (
+    <>
     <div className='weatherapp'>
       <div className='weather'>
         <div className='search-bar'>
@@ -99,6 +100,7 @@ const WeatherApp = () => {
         )}
       </div>
     </div>
+    </>
   );
 }
 

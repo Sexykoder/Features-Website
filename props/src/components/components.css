@@ -314,4 +314,10 @@ margin-bottom: 200px;
   width: 40px;
   margin-top: 5px;
 }
+.weather-top {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
 
