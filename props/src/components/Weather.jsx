@@ -1,9 +1,10 @@
 import React from 'react'
+import WeatherApp from '../WeatherApp/WeatherApp'
 
 function Weather() {
   return (
     <div className='bmi-calc'>
-      <h1>WEATHER</h1>
+      <WeatherApp/>
     </div>
   )
 }
