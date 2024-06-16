@@ -124,7 +124,18 @@
     color: rgb(171, 42, 63);
 }
 .about-me p {
-    font-size: 25px;
+  font-size: 16px;
+  color: #000; /* Pure black color */
+  font-family: 'Arial', sans-serif; /* You can change the font family to something more stylish if desired */
+  font-weight: 300; /* Medium weight */
+  line-height: 1; /* Better line spacing for readability */
+  letter-spacing: 0.5px; /* Slight letter spacing */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to make the text stand out */
+  margin: 20px 0; /* Adds some space above and below the paragraph */
+  padding: 10px 15px; /* Adds padding inside the paragraph */
+  border: 1px solid #ccc; /* Adds a subtle border */
+  background-color: #f8f8f8; /* Light grey background for contrast */
+  border-radius: 5px; /* Rounded corners */
 }
 .bmi-calc {
     margin-top: 100px;
@@ -246,14 +257,16 @@
   }
 
 .weather {
-  background-image: linear-gradient(45deg,#2f4680,#500ae4);
+  background-image: linear-gradient(45deg,#97afed,#bda5f2); 
+  /* background-image: rgb(48, 22, 101); */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px; /* Ensure the container is not too wide */
   text-align: center; /* Center the text inside the container */
-margin-bottom: 200px;
+  margin-bottom: 200px;
+  color: black;
 }
 
 .search-bar {
@@ -285,18 +298,18 @@ margin-bottom: 200px;
   margin: 30px 0;
 }
 .temperature {
-  color: #fff;
+  color: black;
   font-size: 80px;
   line-height: 1;
 }
 .location {
-  color: white;
+  color: black;
   font-size:40px ;
 }
 .weather-data {
   width: 100%;
   margin-top: 40px;
-  color: white;
+  color: black;
   display: flex;
   justify-content: space-between;
 }
